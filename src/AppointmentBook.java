@@ -9,10 +9,12 @@ public class AppointmentBook
     {
         return schedule[period - 1][minute];
     }
-    public int findFreeBlock(int period, int duration) {
+    public int findFreeBlock(int period, int duration)
+    {
         return 0;
     }
-    public boolean makeAppointment(int startPeriod, int endPeriod, int duration) {
+    public boolean makeAppointment(int startPeriod, int endPeriod, int duration)
+    {
         return false;
     }
     public void printPeriod(int period)
