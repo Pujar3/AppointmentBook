@@ -22,4 +22,14 @@ public class AppointmentBook
         for(int i = 0; i < schedule[period - 1].length; i++)
             System.out.println(i + "" + schedule[period - 1][i]);
     }
+    public int findFreeBlock(int period, int duration)
+    {
+        int block = 0;
+        for (int i = 0; i < 60; i++)
+            if(isMinuteFree(period, 1))
+            {
+                block++;
+                if(block == duration)
+            }
+    }
 }
