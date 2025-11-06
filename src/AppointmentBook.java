@@ -20,7 +20,7 @@ public class AppointmentBook
                 block = 0;
             }
         }
-            return -1;
+        return -1;
     }
     public boolean makeAppointment(int startPeriod, int endPeriod, int duration)
     {
